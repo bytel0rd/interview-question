@@ -1,0 +1,20 @@
+{
+  "name": "chaka",
+  "version": "0.0.1",
+  "description": "chaka test",
+  "main": "main.ts",
+  "scripts": {
+    "mockdata": "npx ts-node ./src/cli.ts 100 30",
+    "start": "npx ts-node ./src/demo-program.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chance": "^1.0.9",
+    "@types/node": "^13.9.0",
+    "chance": "^1.1.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
